@@ -9,8 +9,6 @@ _Dependencies_:
 1. [JSONKit][jsonkit]  
 2. [ObjCHiredis][objcredis]
 
----
-
 Examples
 --------
 
