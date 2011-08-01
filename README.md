@@ -1,9 +1,9 @@
 KRLiveStream
 ============
 
-KRLiveStream connects seamlessly to your Redis Pub/Sub Server from your iOS or Mac app and patiently listens for messages sent to it. All messages need to be sent in JSON and will be parsed using JSONKit as an NSDictionary.
+KRLiveStream connects seamlessly to your Redis Pub/Sub Server from your iOS or Mac app and patiently listens for messages sent to it. It's essentially a wrapper for the excellent [ObjCHiredis][objcredis] and runs in the background, always listening for new messages sent to it without disconnecting. All messages need to be sent in JSON and will be parsed using JSONKit as an NSDictionary.
 
-We built this library for [Keyhole.IO][website] as we use Redis as our Pub/Sub server. If you're looking for a cloud-based key-value pair store with live data streaming and messaging, look no further than [Keyhole.IO][website]!
+We built KRLiveStream for [Keyhole.IO][website] as we use Redis as our Pub/Sub server. If you're looking for a cloud-based key-value pair store with live data streaming and messaging, look no further than [Keyhole.IO][website]!
   
 _Dependencies_:  
 1. [JSONKit][jsonkit]  
