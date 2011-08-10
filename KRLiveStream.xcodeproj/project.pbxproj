@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635858D513F28EF20034C7CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D413F28EF20034C7CC /* UIKit.framework */; };
+		635858D713F28EF20034C7CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D613F28EF20034C7CC /* Foundation.framework */; };
+		635858D913F28EF20034C7CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D813F28EF20034C7CC /* CoreGraphics.framework */; };
+		635858DF13F28EF20034C7CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 635858DD13F28EF20034C7CC /* InfoPlist.strings */; };
+		635858E113F28EF20034C7CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635858E013F28EF20034C7CC /* main.m */; };
+		635858E513F28EF20034C7CC /* KRLiveStreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 635858E413F28EF20034C7CC /* KRLiveStreamAppDelegate.m */; };
+		635858E813F28EF20034C7CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635858E613F28EF20034C7CC /* MainWindow.xib */; };
+		635858EB13F28EF20034C7CC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635858EA13F28EF20034C7CC /* RootViewController.m */; };
+		635858EE13F28EF20034C7CC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635858EC13F28EF20034C7CC /* RootViewController.xib */; };
+		635858F613F28EF20034C7CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858F513F28EF20034C7CC /* SenTestingKit.framework */; };
+		635858F713F28EF20034C7CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D413F28EF20034C7CC /* UIKit.framework */; };
+		635858F813F28EF20034C7CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D613F28EF20034C7CC /* Foundation.framework */; };
+		635858F913F28EF20034C7CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D813F28EF20034C7CC /* CoreGraphics.framework */; };
+		6358590113F28EF20034C7CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 635858FF13F28EF20034C7CC /* InfoPlist.strings */; };
+		6358590313F28EF20034C7CC /* KRLiveStreamTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6358590213F28EF20034C7CC /* KRLiveStreamTests.h */; };
+		6358590513F28EF20034C7CC /* KRLiveStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358590413F28EF20034C7CC /* KRLiveStreamTests.m */; };
+		6358591113F28F100034C7CC /* KRLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358590F13F28F100034C7CC /* KRLiveStream.m */; };
+		6358591213F28F100034C7CC /* KRLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358590F13F28F100034C7CC /* KRLiveStream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635858FA13F28EF20034C7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635858C713F28EF20034C7CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635858CF13F28EF20034C7CC;
+			remoteInfo = KRLiveStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635858D013F28EF20034C7CC /* KRLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635858D413F28EF20034C7CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		635858D613F28EF20034C7CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		635858D813F28EF20034C7CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		635858DC13F28EF20034C7CC /* KRLiveStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRLiveStream-Info.plist"; sourceTree = "<group>"; };
+		635858DE13F28EF20034C7CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		635858E013F28EF20034C7CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635858E213F28EF20034C7CC /* KRLiveStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KRLiveStream-Prefix.pch"; sourceTree = "<group>"; };
+		635858E313F28EF20034C7CC /* KRLiveStreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRLiveStreamAppDelegate.h; sourceTree = "<group>"; };
+		635858E413F28EF20034C7CC /* KRLiveStreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRLiveStreamAppDelegate.m; sourceTree = "<group>"; };
+		635858E713F28EF20034C7CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		635858E913F28EF20034C7CC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		635858EA13F28EF20034C7CC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		635858ED13F28EF20034C7CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		635858F413F28EF20034C7CC /* KRLiveStreamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLiveStreamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635858F513F28EF20034C7CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		635858FE13F28EF20034C7CC /* KRLiveStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRLiveStreamTests-Info.plist"; sourceTree = "<group>"; };
+		6358590013F28EF20034C7CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6358590213F28EF20034C7CC /* KRLiveStreamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRLiveStreamTests.h; sourceTree = "<group>"; };
+		6358590413F28EF20034C7CC /* KRLiveStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRLiveStreamTests.m; sourceTree = "<group>"; };
+		6358590E13F28F100034C7CC /* KRLiveStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRLiveStream.h; sourceTree = "<group>"; };
+		6358590F13F28F100034C7CC /* KRLiveStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLiveStream.m; sourceTree = "<group>"; };
+		6358591013F28F100034C7CC /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635858CD13F28EF20034C7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635858D513F28EF20034C7CC /* UIKit.framework in Frameworks */,
+				635858D713F28EF20034C7CC /* Foundation.framework in Frameworks */,
+				635858D913F28EF20034C7CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635858F013F28EF20034C7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635858F613F28EF20034C7CC /* SenTestingKit.framework in Frameworks */,
+				635858F713F28EF20034C7CC /* UIKit.framework in Frameworks */,
+				635858F813F28EF20034C7CC /* Foundation.framework in Frameworks */,
+				635858F913F28EF20034C7CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635858C513F28EF20034C7CC = {
+			isa = PBXGroup;
+			children = (
+				635858DA13F28EF20034C7CC /* KRLiveStream */,
+				635858FC13F28EF20034C7CC /* KRLiveStreamTests */,
+				635858D313F28EF20034C7CC /* Frameworks */,
+				635858D113F28EF20034C7CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635858D113F28EF20034C7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635858D013F28EF20034C7CC /* KRLiveStream.app */,
+				635858F413F28EF20034C7CC /* KRLiveStreamTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635858D313F28EF20034C7CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635858D413F28EF20034C7CC /* UIKit.framework */,
+				635858D613F28EF20034C7CC /* Foundation.framework */,
+				635858D813F28EF20034C7CC /* CoreGraphics.framework */,
+				635858F513F28EF20034C7CC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		635858DA13F28EF20034C7CC /* KRLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				6358590E13F28F100034C7CC /* KRLiveStream.h */,
+				6358590F13F28F100034C7CC /* KRLiveStream.m */,
+				6358591013F28F100034C7CC /* SynthesizeSingleton.h */,
+				635858E313F28EF20034C7CC /* KRLiveStreamAppDelegate.h */,
+				635858E413F28EF20034C7CC /* KRLiveStreamAppDelegate.m */,
+				635858E613F28EF20034C7CC /* MainWindow.xib */,
+				635858E913F28EF20034C7CC /* RootViewController.h */,
+				635858EA13F28EF20034C7CC /* RootViewController.m */,
+				635858EC13F28EF20034C7CC /* RootViewController.xib */,
+				635858DB13F28EF20034C7CC /* Supporting Files */,
+			);
+			path = KRLiveStream;
+			sourceTree = "<group>";
+		};
+		635858DB13F28EF20034C7CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635858DC13F28EF20034C7CC /* KRLiveStream-Info.plist */,
+				635858DD13F28EF20034C7CC /* InfoPlist.strings */,
+				635858E013F28EF20034C7CC /* main.m */,
+				635858E213F28EF20034C7CC /* KRLiveStream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635858FC13F28EF20034C7CC /* KRLiveStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				6358590213F28EF20034C7CC /* KRLiveStreamTests.h */,
+				6358590413F28EF20034C7CC /* KRLiveStreamTests.m */,
+				635858FD13F28EF20034C7CC /* Supporting Files */,
+			);
+			path = KRLiveStreamTests;
+			sourceTree = "<group>";
+		};
+		635858FD13F28EF20034C7CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635858FE13F28EF20034C7CC /* KRLiveStreamTests-Info.plist */,
+				635858FF13F28EF20034C7CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635858CF13F28EF20034C7CC /* KRLiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6358590813F28EF20034C7CC /* Build configuration list for PBXNativeTarget "KRLiveStream" */;
+			buildPhases = (
+				635858CC13F28EF20034C7CC /* Sources */,
+				635858CD13F28EF20034C7CC /* Frameworks */,
+				635858CE13F28EF20034C7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRLiveStream;
+			productName = KRLiveStream;
+			productReference = 635858D013F28EF20034C7CC /* KRLiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635858F313F28EF20034C7CC /* KRLiveStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6358590B13F28EF20034C7CC /* Build configuration list for PBXNativeTarget "KRLiveStreamTests" */;
+			buildPhases = (
+				635858EF13F28EF20034C7CC /* Sources */,
+				635858F013F28EF20034C7CC /* Frameworks */,
+				635858F113F28EF20034C7CC /* Resources */,
+				635858F213F28EF20034C7CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635858FB13F28EF20034C7CC /* PBXTargetDependency */,
+			);
+			name = KRLiveStreamTests;
+			productName = KRLiveStreamTests;
+			productReference = 635858F413F28EF20034C7CC /* KRLiveStreamTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635858C713F28EF20034C7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = immedia;
+			};
+			buildConfigurationList = 635858CA13F28EF20034C7CC /* Build configuration list for PBXProject "KRLiveStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 635858C513F28EF20034C7CC;
+			productRefGroup = 635858D113F28EF20034C7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635858CF13F28EF20034C7CC /* KRLiveStream */,
+				635858F313F28EF20034C7CC /* KRLiveStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635858CE13F28EF20034C7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635858DF13F28EF20034C7CC /* InfoPlist.strings in Resources */,
+				635858E813F28EF20034C7CC /* MainWindow.xib in Resources */,
+				635858EE13F28EF20034C7CC /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635858F113F28EF20034C7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6358590113F28EF20034C7CC /* InfoPlist.strings in Resources */,
+				6358590313F28EF20034C7CC /* KRLiveStreamTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		635858F213F28EF20034C7CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635858CC13F28EF20034C7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635858E113F28EF20034C7CC /* main.m in Sources */,
+				635858E513F28EF20034C7CC /* KRLiveStreamAppDelegate.m in Sources */,
+				635858EB13F28EF20034C7CC /* RootViewController.m in Sources */,
+				6358591113F28F100034C7CC /* KRLiveStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635858EF13F28EF20034C7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6358590513F28EF20034C7CC /* KRLiveStreamTests.m in Sources */,
+				6358591213F28F100034C7CC /* KRLiveStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635858FB13F28EF20034C7CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635858CF13F28EF20034C7CC /* KRLiveStream */;
+			targetProxy = 635858FA13F28EF20034C7CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635858DD13F28EF20034C7CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635858DE13F28EF20034C7CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		635858E613F28EF20034C7CC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635858E713F28EF20034C7CC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		635858EC13F28EF20034C7CC /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635858ED13F28EF20034C7CC /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		635858FF13F28EF20034C7CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6358590013F28EF20034C7CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6358590613F28EF20034C7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6358590713F28EF20034C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6358590913F28EF20034C7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRLiveStream/KRLiveStream-Prefix.pch";
+				INFOPLIST_FILE = "KRLiveStream/KRLiveStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6358590A13F28EF20034C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRLiveStream/KRLiveStream-Prefix.pch";
+				INFOPLIST_FILE = "KRLiveStream/KRLiveStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6358590C13F28EF20034C7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KRLiveStream.app/KRLiveStream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRLiveStream/KRLiveStream-Prefix.pch";
+				INFOPLIST_FILE = "KRLiveStreamTests/KRLiveStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6358590D13F28EF20034C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KRLiveStream.app/KRLiveStream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRLiveStream/KRLiveStream-Prefix.pch";
+				INFOPLIST_FILE = "KRLiveStreamTests/KRLiveStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635858CA13F28EF20034C7CC /* Build configuration list for PBXProject "KRLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358590613F28EF20034C7CC /* Debug */,
+				6358590713F28EF20034C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6358590813F28EF20034C7CC /* Build configuration list for PBXNativeTarget "KRLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358590913F28EF20034C7CC /* Debug */,
+				6358590A13F28EF20034C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6358590B13F28EF20034C7CC /* Build configuration list for PBXNativeTarget "KRLiveStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358590C13F28EF20034C7CC /* Debug */,
+				6358590D13F28EF20034C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635858C713F28EF20034C7CC /* Project object */;
+}

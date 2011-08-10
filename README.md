@@ -16,13 +16,13 @@ Examples
 `[[KRLiveStream sharedKRLiveStream] connectToServer:@"keyhole.io" port:[NSNumber numberWithInt:6379] channel:@"my-spiffy-channel" delegate:self];`
 
 **Get a message and react**  
-`- (void)liveStreamMessageReceived:(NSDictionary *)message {
-  NSLog(@"Received message: %@", message);
+`- (void)liveStreamMessageReceived:(NSDictionary *)message {  
+    NSLog(@"Received message: %@", message);  
 }`
 
 **Disconnect from server**  
-`- (IBAction)disconnect {
-  [[KRLiveStream] sharedKRLiveStream] disconnectFromServer];
+`- (IBAction)disconnect {  
+    [[KRLiveStream] sharedKRLiveStream] disconnectFromServer];  
 }`
 
 ---
