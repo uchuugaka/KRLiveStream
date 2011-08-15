@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6309187013F932EA00DA4991 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309186A13F932EA00DA4991 /* AsyncSocket.m */; };
+		6309187113F932EA00DA4991 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309186A13F932EA00DA4991 /* AsyncSocket.m */; };
+		6309187213F932EA00DA4991 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309186C13F932EA00DA4991 /* JSONKit.m */; };
+		6309187313F932EA00DA4991 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309186C13F932EA00DA4991 /* JSONKit.m */; };
+		6309187413F932EA00DA4991 /* KRLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309186E13F932EA00DA4991 /* KRLiveStream.m */; };
+		6309187513F932EA00DA4991 /* KRLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309186E13F932EA00DA4991 /* KRLiveStream.m */; };
 		635858D513F28EF20034C7CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D413F28EF20034C7CC /* UIKit.framework */; };
 		635858D713F28EF20034C7CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D613F28EF20034C7CC /* Foundation.framework */; };
 		635858D913F28EF20034C7CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635858D813F28EF20034C7CC /* CoreGraphics.framework */; };
@@ -23,8 +29,7 @@
 		6358590113F28EF20034C7CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 635858FF13F28EF20034C7CC /* InfoPlist.strings */; };
 		6358590313F28EF20034C7CC /* KRLiveStreamTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6358590213F28EF20034C7CC /* KRLiveStreamTests.h */; };
 		6358590513F28EF20034C7CC /* KRLiveStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358590413F28EF20034C7CC /* KRLiveStreamTests.m */; };
-		6358591113F28F100034C7CC /* KRLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358590F13F28F100034C7CC /* KRLiveStream.m */; };
-		6358591213F28F100034C7CC /* KRLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358590F13F28F100034C7CC /* KRLiveStream.m */; };
+		63907ED913F29D2300B279D9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63907ED813F29D2300B279D9 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6309186913F932EA00DA4991 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		6309186A13F932EA00DA4991 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		6309186B13F932EA00DA4991 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		6309186C13F932EA00DA4991 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		6309186D13F932EA00DA4991 /* KRLiveStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRLiveStream.h; sourceTree = "<group>"; };
+		6309186E13F932EA00DA4991 /* KRLiveStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLiveStream.m; sourceTree = "<group>"; };
+		6309186F13F932EA00DA4991 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		635858D013F28EF20034C7CC /* KRLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635858D413F28EF20034C7CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		635858D613F28EF20034C7CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,9 +70,7 @@
 		6358590013F28EF20034C7CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6358590213F28EF20034C7CC /* KRLiveStreamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRLiveStreamTests.h; sourceTree = "<group>"; };
 		6358590413F28EF20034C7CC /* KRLiveStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRLiveStreamTests.m; sourceTree = "<group>"; };
-		6358590E13F28F100034C7CC /* KRLiveStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRLiveStream.h; sourceTree = "<group>"; };
-		6358590F13F28F100034C7CC /* KRLiveStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLiveStream.m; sourceTree = "<group>"; };
-		6358591013F28F100034C7CC /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		63907ED813F29D2300B279D9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63907ED913F29D2300B279D9 /* CFNetwork.framework in Frameworks */,
 				635858D513F28EF20034C7CC /* UIKit.framework in Frameworks */,
 				635858D713F28EF20034C7CC /* Foundation.framework in Frameworks */,
 				635858D913F28EF20034C7CC /* CoreGraphics.framework in Frameworks */,
@@ -88,6 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6309186813F932EA00DA4991 /* KRLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				6309186913F932EA00DA4991 /* AsyncSocket.h */,
+				6309186A13F932EA00DA4991 /* AsyncSocket.m */,
+				6309186B13F932EA00DA4991 /* JSONKit.h */,
+				6309186C13F932EA00DA4991 /* JSONKit.m */,
+				6309186D13F932EA00DA4991 /* KRLiveStream.h */,
+				6309186E13F932EA00DA4991 /* KRLiveStream.m */,
+				6309186F13F932EA00DA4991 /* SynthesizeSingleton.h */,
+			);
+			path = KRLiveStream;
+			sourceTree = "<group>";
+		};
 		635858C513F28EF20034C7CC = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +135,7 @@
 		635858D313F28EF20034C7CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63907ED813F29D2300B279D9 /* CFNetwork.framework */,
 				635858D413F28EF20034C7CC /* UIKit.framework */,
 				635858D613F28EF20034C7CC /* Foundation.framework */,
 				635858D813F28EF20034C7CC /* CoreGraphics.framework */,
@@ -121,14 +147,12 @@
 		635858DA13F28EF20034C7CC /* KRLiveStream */ = {
 			isa = PBXGroup;
 			children = (
-				6358590E13F28F100034C7CC /* KRLiveStream.h */,
-				6358590F13F28F100034C7CC /* KRLiveStream.m */,
-				6358591013F28F100034C7CC /* SynthesizeSingleton.h */,
+				6309186813F932EA00DA4991 /* KRLiveStream */,
+				635858E913F28EF20034C7CC /* RootViewController.h */,
+				635858EA13F28EF20034C7CC /* RootViewController.m */,
 				635858E313F28EF20034C7CC /* KRLiveStreamAppDelegate.h */,
 				635858E413F28EF20034C7CC /* KRLiveStreamAppDelegate.m */,
 				635858E613F28EF20034C7CC /* MainWindow.xib */,
-				635858E913F28EF20034C7CC /* RootViewController.h */,
-				635858EA13F28EF20034C7CC /* RootViewController.m */,
 				635858EC13F28EF20034C7CC /* RootViewController.xib */,
 				635858DB13F28EF20034C7CC /* Supporting Files */,
 			);
@@ -218,6 +242,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 635858C513F28EF20034C7CC;
 			productRefGroup = 635858D113F28EF20034C7CC /* Products */;
@@ -276,7 +301,9 @@
 				635858E113F28EF20034C7CC /* main.m in Sources */,
 				635858E513F28EF20034C7CC /* KRLiveStreamAppDelegate.m in Sources */,
 				635858EB13F28EF20034C7CC /* RootViewController.m in Sources */,
-				6358591113F28F100034C7CC /* KRLiveStream.m in Sources */,
+				6309187013F932EA00DA4991 /* AsyncSocket.m in Sources */,
+				6309187213F932EA00DA4991 /* JSONKit.m in Sources */,
+				6309187413F932EA00DA4991 /* KRLiveStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6358590513F28EF20034C7CC /* KRLiveStreamTests.m in Sources */,
-				6358591213F28F100034C7CC /* KRLiveStream.m in Sources */,
+				6309187113F932EA00DA4991 /* AsyncSocket.m in Sources */,
+				6309187313F932EA00DA4991 /* JSONKit.m in Sources */,
+				6309187513F932EA00DA4991 /* KRLiveStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +482,7 @@
 				6358590A13F28EF20034C7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6358590B13F28EF20034C7CC /* Build configuration list for PBXNativeTarget "KRLiveStreamTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +491,7 @@
 				6358590D13F28EF20034C7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

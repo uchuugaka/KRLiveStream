@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KRLiveStream.h"
+#import "AsyncSocket.h"
 
-@interface RootViewController : UITableViewController
+@interface RootViewController : UITableViewController <KRLiveStreamDelegate>
+
+@property (nonatomic, retain) NSMutableArray *messages;
+
+- (IBAction)disconnect:(id)sender;
+- (IBAction)connect:(id)sender;
 
 @end

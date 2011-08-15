@@ -24,28 +24,39 @@
 //  THE SOFTWARE.
 //
 
+#import "AsyncSocket.h"
 
 @protocol KRLiveStreamDelegate;
 
-@interface KRLiveStream : NSObject {
+
+@interface KRLiveStream : NSObject <AsyncSocketDelegate> {
+  AsyncSocket *_socket;
 }
 
 @property (nonatomic, retain) NSString *serverHost;
 @property (nonatomic, retain) NSNumber *serverPort;
 @property (nonatomic, retain) NSString *channelName;
-@property (nonatomic) BOOL openConnection;
-@property (nonatomic) dispatch_queue_t que;
 @property (nonatomic, retain) id<KRLiveStreamDelegate> delegate;
 
 + (KRLiveStream *)sharedKRLiveStream;
 - (void)connectToServer:(NSString *)host port:(NSNumber *)port channel:(NSString *)channel delegate:(id<KRLiveStreamDelegate>)theDelegate;
-- (void)disconnectFromServer;
-- (void)disconnectFromChannel;
+- (void)disconnectServer;
+- (void)subscribeToCurrentChannel;
+- (void)unsubscribeFromCurrentChannel;
 
 @end
+
 
 @protocol KRLiveStreamDelegate<NSObject>
 - (void)liveStreamMessageReceived:(NSDictionary *)message;
 @optional
-- (void)streamDisconnected;
+- (void)liveStreamConnected;
+- (void)liveStreamDisconnected;
+@end
+
+
+@interface NSString (KRLiveStream)
+
+- (NSString *)redisString;
+
 @end
